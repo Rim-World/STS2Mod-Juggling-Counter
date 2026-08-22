@@ -1,0 +1,12 @@
+{
+  "id": "JugglingCounterMod",
+  "name": "杂耍计数 (Juggling Counter)",
+  "author": "再玩小卡组找人弄你",
+  "description": "为铁甲战士能力牌\"杂耍\"（Juggling）的 buff 图标右上角添加本回合已打出攻击牌数的计数。纯显示增强，不影响玩法。",
+  "version": "1.0.0",
+  "has_pck": true,
+  "has_dll": true,
+  "min_game_version": "0.107.0",
+  "dependencies": [],
+  "affects_gameplay": false
+}
