@@ -10,6 +10,7 @@
 - 构建中间产物与 Godot 缓存归档到 `TMP/02-缓存与临时/`，一次性脚本迁入 `TOOLS/scripts/`。
 - 新增 `4.SDD/001-总体设计.md`、`5.ChangeLog/`、`README.md`、`CHANGELOG.md`、`TMP/TMP.md`、`TOOLS/TOOLS.md`、`10.OUTPUT/output.md`、`PRIVACY/PRIVACY.md`。
 - 代码（`.cs` / `.csproj` / `project.godot` / `export_presets.cfg` / `build.ps1` / mod 清单）零改动。
+- 本次仓库整理提交：`7d119c3`（版本号不变，仍为 1.0.0）。
 
 ## [1.0.0] - 2026-08-22
 
