@@ -1,0 +1,55 @@
+English | [中文](README.zh.md)
+
+# If you like this mod, welcome to check out my other mods. They might be helpful to you.
+
+## 1\. Effects
+
+Adds a counter showing "the number of Attack cards played this turn" to the top-right corner of the buff icon of the Ironclad's Power card "Juggling", while the original stack count (number of copies) at the bottom-right corner remains unchanged.
+
+"Juggling" copies the 3rd Attack card you play each turn. This mod shows exactly how many Attack cards have been played this turn, so you won't forget how many more you need before the copy triggers.
+
+The counter shows the real number (0, 1, 2, 3... without a cap) and resets automatically when the turn changes; even if you play Attack cards before playing Juggling, the counter is obtained from the combat global history and shows the correct number of attacks already played this turn.
+
+This mod is a pure display enhancement: it does not change card effects, any values, or game mechanics.
+
+## 2\. Impact (Based on My Understanding of the Game)
+
+The copy trigger of "Juggling" depends on how many Attack cards have been played this turn, but the game itself does not show this number intuitively, so players often forget how many more attacks are needed to trigger the copy.
+
+This mod displays the number directly on the buff icon, reducing the memory burden and letting players focus on more important decisions.
+
+This mod does not affect save files, everything returns to its original state when the mod is disabled.
+
+## 3\. Environment & Version
+
+This mod does not depend on any base mod.
+
+This mod supports the default 0.107.x branch and public beta 0.111.0 and above (both verified).
+
+In theory, as long as there are no major API updates or changes to the Juggling card's mechanics, this mod should automatically adapt to new versions without any modification.
+
+## 4\. Implementation & Compatibility
+
+This mod is written with minimal dependencies (pure Harmony patches, zero third-party libraries), so under normal circumstances it is compatible with most mods and unlikely to break as the game version changes.
+
+The counter data comes directly from the game's combat history (the same source as the game's internal "attacks played this turn" count), so the displayed value always matches the actual game state;
+
+The corner label dynamically duplicates the style of the game's original stack-count label (matching font, size, color, and outline), with its position moved to the top-right corner of the icon.
+
+The mod works in the same way across all supported game versions.
+
+However, compatibility is not guaranteed with pirated copies, modified versions, mobile versions, outdated versions, niche mods, or secondary mods.
+
+## 5\. Credits
+
+This mod was made with Deepseek Harness (WebUI) + DeepSeek V4 Flash (0731 GA). Thanks to Saint Liang.
+
+Thanks to the Slay the Spire 2 team for their efforts to make modding easier for players.
+
+Thanks to the BaseLib and RitsuLib developers for their open-source implementations and documentation (the corner-label design of this mod draws on both).
+
+## 6\. Open-Source Repository & Contact
+
+Open-source repository: https://github.com/Rim-World/STS2Mod-Juggling-Counter
+
+Feel free to leave your comments and feedback in the comment section.
