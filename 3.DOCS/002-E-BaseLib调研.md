@@ -2,7 +2,7 @@
 
 - 调研日期：2026-08-22
 - 调研对象：https://github.com/Alchyr/BaseLib-StS2
-- 本地克隆：`C:\Users\13167\Desktop\Mod\STS2-Reference\BaseLib-StS2`（tag `v3.4.0`）
+- 本地克隆：`C:\Users\<用户名>\Desktop\Mod\STS2-Reference\BaseLib-StS2`（tag `v3.4.0`）
 - 线上最新：v3.4.5（2026-08-14 发布，release notes 含 "beta compat"）
 - 关联项目：ModTemplate-StS2（https://github.com/Alchyr/ModTemplate-StS2，README 即入门手册）
 
