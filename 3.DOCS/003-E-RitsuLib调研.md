@@ -2,8 +2,8 @@
 
 - 调研日期：2026-08-22
 - 调研对象：https://github.com/BAKAOLC/STS2-RitsuLib
-- 本地克隆：`C:\Users\<用户名>\Desktop\Mod\STS2-Reference\STS2-RitsuLib`（tag `v0.5.10`，含中英文双 README 与完整文档站源码）
-- 本地另有解包：`STS2-Reference\ritsulib-decompiled-core\`（DLL 反编译，可对照）
+- 本地克隆：`C:\Users\<用户名>\Desktop\Mod\STS2-Reference\6.Mod-Sources\STS2-RitsuLib`（tag `v0.5.10`，含中英文双 README 与完整文档站源码）
+- 本地另有解包：`STS2-Reference\5.Mod-Decompiled\ritsulib-decompiled-core\`（DLL 反编译，可对照）
 - 线上最新：v0.5.14（2026-08-21 发布）
 - 授权：MIT
 
