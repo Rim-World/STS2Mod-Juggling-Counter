@@ -16,6 +16,7 @@
 |---|---|---|---|---|
 | 2026-11-01 | `02-发布包/JugglingCounterMod.v1.0.0.zip` | 1.0.0 | 179 KB（183,124 B） | 从游戏 `mods/JugglingCounterMod/` 打包的发布包：`JugglingCounterMod.dll` / `.pck` / `.pdb` / `.json`，压缩包内顶级目录为 `JugglingCounterMod/`；已排除以 `.` 开头的上传状态目录（`.sts2-workshop-uploader`） |
 | 2026-11-01 | `02-发布包/JugglingCounterModSourceCode.zip` | 1.0.0 | 106 KB（108,268 B） | 从 `9.SRC/JugglingCounterMod/` 打包的源码包，排除 `.godot/`、`bin/`、`obj/` 与 `*.dll` / `*.pck` / `*.pdb` |
+| 2026-11-13 | `01-构建产物/1.0.1/JugglingCounterMod.dll` | 1.0.1 | 12,800 B（SHA-256 `7da1a433…a31219e`） | 以 v0.113.0 `sts2.dll` 编译（AssemblyVersion 1.0.1.0）；谓词 `e.Actor == power.Owner`。配套 `.pdb`、`.json`（version=1.0.1）同目录；pck 未改，沿用 1.0.0 的 `JugglingCounterMod.pck` |
 
 ## 游戏内已安装构建（不在本目录）
 

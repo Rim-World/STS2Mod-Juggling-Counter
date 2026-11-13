@@ -6,7 +6,7 @@ STS2Mod-杂耍计数 —— 为铁甲战士能力牌"杂耍"（Juggling）的 bu
 |---|---|---|---|---|
 | 001 | 2026-08-22 | 零依赖自研 + History 实时统计 + NPower 角标补丁 | 纯 Harmony，不依赖 BaseLib / RitsuLib；数据源取 `CombatHistory.CardPlaysStarted` 实时重算；补丁点 `NPower.RefreshAmount` / `NPower._ExitTree` / `CombatHistory.CardPlayStarted` / `JugglingPower.AfterSideTurnEnd`；`affects_gameplay=false` | [001-零依赖自研与History实时统计.md](001-零依赖自研与History实时统计.md) |
 | 002 | 2026-08-22 | 构建与打包方案（v1.0.0） | manifest 参数（id / author / version 1.0.0）；`has_pck=true`（模组图标需 `res://{id}/mod_image.png`，修正 001 的 `has_pck=false` 预案）；420×420 正式图标；中间文件与工程目录分离（dotnet 输出重定向 + Godot 缓存归位）；`build.ps1` 直接安装到游戏 `mods/` | [002-构建与打包.md](002-构建与打包.md) |
-| 003 | 2026-08-22 | 双版本兼容策略（v0.107 / v0.111 单一 DLL） | `min_game_version=0.107.0`；统计谓词统一为 `Card.Owner.Creature` 链（107/111 通用）；以当前分支 dll 编译，单一 DLL 双版本 | [003-双版本兼容策略.md](003-双版本兼容策略.md) |
+| 003 | 2026-08-22（2026-11-13 修订） | 双版本兼容策略（v0.107 / v0.111 / v0.113 单一 DLL） | `min_game_version=0.107.0`；统计谓词统一为 `CardPlayStartedEntry.Actor`（107/111/113 通用，卡牌易主不串账）；以当前分支 dll 编译，单一 DLL 跨版本 | [003-双版本兼容策略.md](003-双版本兼容策略.md) |
 
 ## 维护说明
 

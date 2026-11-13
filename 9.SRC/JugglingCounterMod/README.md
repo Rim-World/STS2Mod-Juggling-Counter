@@ -24,7 +24,7 @@ This mod does not affect save files, everything returns to its original state wh
 
 This mod does not depend on any base mod.
 
-This mod supports the default 0.107.x branch and public beta 0.111.0 and above (both verified).
+This mod supports 0.107.x, 0.111.0 and 0.113.0 (0.107/0.111 verified in game; 0.113.0 reviewed and compiled against the 0.113.0 assemblies). Later versions should work as long as the Juggling mechanics and the patched APIs stay the same.
 
 In theory, as long as there are no major API updates or changes to the Juggling card's mechanics, this mod should automatically adapt to new versions without any modification.
 
@@ -32,7 +32,7 @@ In theory, as long as there are no major API updates or changes to the Juggling 
 
 This mod is written with minimal dependencies (pure Harmony patches, zero third-party libraries), so under normal circumstances it is compatible with most mods and unlikely to break as the game version changes.
 
-The counter data comes directly from the game's combat history (the same source as the game's internal "attacks played this turn" count), so the displayed value always matches the actual game state;
+The counter data comes directly from the game's combat history (the same source as the game's internal "attacks played this turn" count), so the displayed value always matches the actual game state. Played-by attribution uses the history entry's snapshot, so cards that change owners after being played (e.g. The Ball in co-op) do not skew the count;
 
 The corner label dynamically duplicates the style of the game's original stack-count label (matching font, size, color, and outline), with its position moved to the top-right corner of the icon.
 

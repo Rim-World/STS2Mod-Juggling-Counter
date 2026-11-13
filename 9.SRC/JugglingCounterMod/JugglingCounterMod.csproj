@@ -6,6 +6,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <RootNamespace>JugglingCounterMod</RootNamespace>
     <AssemblyName>JugglingCounterMod</AssemblyName>
+    <Version>1.0.1</Version>
 
     <!-- 本机路径 -->
     <Sts2Path>C:/Game/Steam/steamapps/common/Slay the Spire 2</Sts2Path>

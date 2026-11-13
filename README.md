@@ -7,7 +7,7 @@ A Slay the Spire 2 mod that shows the number of Attack cards played this turn at
 | 项目 | 值 |
 |---|---|
 | Mod ID | `JugglingCounterMod` |
-| 版本 | 1.0.0 |
+| 版本 | 1.0.1 |
 | 作者 | 再玩小卡组找人弄你 |
 | 最低游戏版本 | 0.107.0 |
 | 依赖 | 无 |
@@ -23,7 +23,8 @@ A Slay the Spire 2 mod that shows the number of Attack cards played this turn at
 
 ## 兼容性
 
-- 支持 v0.107.x（default 分支）与 v0.111.0（public beta），单一 DLL 双版本通用，两版本均已实测。
+- 支持 v0.107.x、v0.111.0 与 v0.113.0，单一 DLL 跨版本通用；v0.107 / v0.111 已实测，v0.113.0 已完成接口核对与编译。
+- 联机中卡牌打出后易主（如"球"，The Ball）不会改变计数归属，显示值与官方内部计数一致。
 - 零第三方依赖（纯 Harmony 补丁），与 BaseLib / RitsuLib 同装无冲突。
 - 不保证与盗版、修改版、移动版、老旧版本或冷门/次级 mod 的兼容性。
 
@@ -82,7 +83,7 @@ STS2Mod-杂耍计数/
 
 ## 版本
 
-当前版本 **1.0.0**（2026-08-22）。版本变更见 [CHANGELOG.md](CHANGELOG.md)。
+当前版本 **1.0.1**（2026-11-13）。版本变更见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 致谢
 
