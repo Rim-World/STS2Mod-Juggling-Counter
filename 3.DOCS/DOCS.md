@@ -11,6 +11,7 @@ STS2Mod-杂耍计数 —— 为铁甲战士能力牌"杂耍"（Juggling）的 bu
 | 003-E | [003-E-RitsuLib调研.md](003-E-RitsuLib调研.md) | STS2-RitsuLib 调研：定位 / 版本 / 安装 / 文档站、`ExtraCornerAmountLabels` 角标框架（TopRight 布局常量）、Patching 框架、Capabilities / NodeAttachments 不适用结论 |
 | 004-R | [004-R-v0.107兼容性核对报告.md](004-R-v0.107兼容性核对报告.md) | v0.107 兼容性核对报告：逐项依赖点核对（唯一不兼容点 = `CardPlay.Player` 谓词）、修改计划（谓词统一写法 + `min_game_version`）、版本间机制差异记录、107 编译产物在 111 上的可用性结论 |
 | 005-R | [005-R-v0.113兼容性核对报告.md](005-R-v0.113兼容性核对报告.md) | v0.113.0 兼容性核对：逐项 API / 场景 / manifest 核对；发现并修正"打出者"谓词（球换手导致串账，改用 `CardPlayStartedEntry.Actor`）；角标 1px 观感的字体轮廓证据与结论 |
+| 006-R | [006-R-1.0.1对抗性审查报告.md](006-R-1.0.1对抗性审查报告.md) | 1.0.1 对抗性审查结案：三路只读审查（谓词 / 刷新生命周期 / 113 假设）均为 0 必须追加改动；记录 113 差异中无需跟改的部分、P3 既有边界（非玩家侧自动出牌、战斗结束、`%AmountLabel`、107 时序）、1px 结论与孤立 `.uid` |
 
 其他相关文档：
 
