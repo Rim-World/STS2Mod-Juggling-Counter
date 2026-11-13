@@ -20,6 +20,19 @@
 
 ## 游戏内已安装构建（不在本目录）
 
+### 当前安装：1.0.1（2026-11-13 覆盖安装）
+
+| 时间 | 文件 | 大小 | 说明 |
+|---|---|---|---|
+| 2026-11-13 | `JugglingCounterMod.dll` | 12,800 B | 1.0.1，AssemblyVersion 1.0.1.0，以 v0.113.0 程序集编译；SHA-256 `7da1a433…a31219e` |
+| 2026-11-13 | `JugglingCounterMod.pdb` | 15,880 B | 1.0.1 调试符号 |
+| 2026-11-13 | `JugglingCounterMod.json` | 442 B | manifest（`version=1.0.1`、`min_game_version=0.107.0`、`has_pck=true`、`affects_gameplay=false`） |
+| 2026-08-22 | `JugglingCounterMod.pck` | 168,136 B | 未改动，沿用 1.0.0；仅含 `JugglingCounterMod/mod_image.png`（420×420）；SHA-256 `53e6aa…f1ffd42a` |
+
+覆盖前的 1.0.0 四个文件已备份到 `TMP/113-check/installed-backup-1.0.0/`。
+
+### 历史安装：1.0.0（已被覆盖）
+
 | 时间 | 文件 | 大小 | 说明 |
 |---|---|---|---|
 | 2026-08-22 | `JugglingCounterMod.dll` | 12,800 B | 以 v0.107 游戏程序集编译；v0.107 / v0.111 双版本实测可用 |
