@@ -23,7 +23,7 @@ A Slay the Spire 2 mod that shows the number of Attack cards played this turn at
 
 ## 兼容性
 
-- 支持 v0.107.x、v0.111.0 与 v0.113.0，单一 DLL 跨版本通用；v0.107 / v0.111 已实测，v0.113.0 已完成接口核对与编译。
+- 支持 v0.107.x、v0.111.0 与 v0.113.0，单一 DLL 跨版本通用；v0.107 / v0.111 已实测，v0.113.0 已完成接口核对与编译，1.0.1 的 v0.107 兼容性为 IL / 源码静态核对。
 - 联机中卡牌打出后易主（如"球"，The Ball）不会改变计数归属，显示值与官方内部计数一致。
 - 零第三方依赖（纯 Harmony 补丁），与 BaseLib / RitsuLib 同装无冲突。
 - 不保证与盗版、修改版、移动版、老旧版本或冷门/次级 mod 的兼容性。
